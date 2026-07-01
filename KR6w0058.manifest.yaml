@@ -1,0 +1,80 @@
+canonical_identifier: bkk:krp/KR6w0058/v1
+canonical_location: https://kanripo.org/bkk/KR6w0058/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 閱藏隨錄
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D58/D58n9010.xml
+    old_id: D58n9010
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0058_000.yaml, hash: 'sha256:51697472a339b9898488034b83e1c41904949b5ca88665d80ef45c3053ed4c69'}
+  - {seq: 1, filename: KR6w0058_001.yaml, hash: 'sha256:1e27c5fa857970a8a8d3a1579b101289c5fc8b14d4064a17f9d65f28cf7ceb19'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6w0058_000.markers.yaml, hash: 'sha256:b86a411cfb559caedae050a8b31d8c23a9607731321d2d8ec72edd6a5989e9a2'}
+  - {seq: 1, role: markers, filename: assets/KR6w0058_001.markers.yaml, hash: 'sha256:9b484ab16600b7ba58381e5199363e340c981f744202e08c88def393403f6f82'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6w0058_D_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6w0058_D_000-mulu-2
+    span:
+    - front
+    - 0
+    - 0
+  label: 重梓序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6w0058_D_000-mulu-3
+    span:
+    - front
+    - 180
+    - 180
+  label: 小敘
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6w0058_D_000-mulu-4
+    span:
+    - front
+    - 663
+    - 663
+  label: 閱藏隨錄
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6w0058_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 39359
+  label: 閱藏隨錄
+  type: juan
+  level: 1
+hash: sha256:5f75b4e1137f95ed8d661be1754eb333143362705b4793501c148229be3c79a2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
