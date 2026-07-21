@@ -19,17 +19,17 @@ metadata:
     short: D
 assets:
   parts:
-  - {seq: 0, filename: KR6w0058_000-D.yaml, hash: 'sha256:05e9c2f2680fc0f732603684024f664f234d5639119a0ce7876c579740672f0d'}
+  - {seq: 0, filename: KR6w0058_000-D.yaml, hash: 'sha256:5d91f1e10307e3565ecdf2900acefdaca921320f364caa863f40c48969c41483'}
   - {seq: 1, filename: KR6w0058_001-D.yaml, hash: 'sha256:e9f475a4bd707db9a23e66f51457b31ca7873edc3a312433071d8e9d644bff05'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6w0058_000-D.markers.yaml, hash: 'sha256:7e61a4da0f7bc5cd8ab9a9d048aac409570230eedece723d530b9dc831e83658'}
+  - {seq: 0, role: markers, filename: assets/KR6w0058_000-D.markers.yaml, hash: 'sha256:25ef2d41852198f30fa3744deac7fb0b4cc8774304ad3996b46dc717270ffbec'}
   - {seq: 1, role: markers, filename: assets/KR6w0058_001-D.markers.yaml, hash: 'sha256:0d8a9b5dd202655cb8c9820c89bf9c2ba76b0d05aa405a0a37e1bd91f631230c'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6w0058_D_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 序
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6w0058_D_000-mulu-2
     span:
-    - front
+    - body
     - 0
     - 0
   label: 重梓序
@@ -49,7 +49,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6w0058_D_000-mulu-3
     span:
-    - front
+    - body
     - 180
     - 180
   label: 小敘
@@ -59,7 +59,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6w0058_D_000-mulu-4
     span:
-    - front
+    - body
     - 663
     - 663
   label: 閱藏隨錄
@@ -75,4 +75,4 @@ table_of_contents:
   label: 閱藏隨錄
   type: juan
   level: 1
-hash: sha256:1e56a2802403c21bb8bc76988523278c2585df4a1880855728dee437e2e43f0b
+hash: sha256:9e1878444c439bf017157007093b8716f6f8a711c1067df1beba57a5f9196fa4
